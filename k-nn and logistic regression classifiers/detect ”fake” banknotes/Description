@@ -1,0 +1,2 @@
+In this Project, I will implement k-nn and logistic re- gression classifiers to detect ”fake” banknotes and analyze the comparative importance of features in predicting accuracy.
+For the dataset, I use ”banknote authentication dataset” from the machine Learning depository at UCI: https://archive. ics.uci.edu/ml/datasets/banknote+authentication
