@@ -1,0 +1,26 @@
+
+
+Introduction:
+This program can query the asset liability ratio of any companies in the s&p500. After calculating the asset liability ratio, the program will help the user to determine if the company is a company with a high level of debt and save the results of each query in a text file.
+
+Program Structure:
+The program has a class that is used to greet the user at the beginning. Then, the program will ask user to input the stock code of the company that the user wants to query. 
+Each time the program runs, the user is given three chances to query and get result. If the three chances are exhausted and the user still wants to continue the query, then the user has to run the program again. 
+
+How does this program calculate the asset liability ratio of a company?
+The formula to derive the asset liability ratio is: 
+Asset liability ratio= Total debt/Total asset. 
+Total debt = short term debt + long term debt
+What have I done?
+First, I piped install yfinance and pip install pandas_datareader in my system.
+According to yfinance, I looked up #msft.balance_sheet and found data about total asset, short long term debt and long term debt. So, I applied the container types and saved the data of total asset, long term debt and long term debt. 
+When the program runs, it automatically generates a txt file to help the user save the asset liability ratio data of the company they are querying.
+This program uses if else statement to help users determine if a company has too much debt.
+This program uses for loop to limit the user to only three queries. 
+
+Instructions how to run my code:
+1.	Click run
+2.	Enter a s&p500 company stock code(Example: AAPL, MSFT, NVDA, KO, INTC, TETR)
+
+ 
+   
